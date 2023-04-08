@@ -31,7 +31,8 @@ export default function Login() {
     <CenteredContainer>
       <Card>
         <Card.Body>
-          <h2 className="text-center mb-4">Log In</h2>
+          <h2 className="text-center mb-4">Welcome to FireVault!</h2>
+          <p className="text-center mb-4">Login here with your email and password.</p>
           {error && <Alert variant="danger">{error}</Alert>}
           <Form onSubmit={handleSubmit}>
             <Form.Group id="email">
