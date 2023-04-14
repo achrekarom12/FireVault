@@ -8,7 +8,6 @@ import PrivateRoute from "./authentication/PrivateRoute"
 import ForgotPassword from "./authentication/ForgotPassword"
 import UpdateProfile from "./authentication/UpdateProfile"
 import Dashboard from "./google-drive/Dashboard"
-import Home from "./Home"
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
 
           {/* Auth */}
           <Route path="/signup" component={Signup} />
-          <Route path="/homepage" component={Home} />
           <Route path="/login" component={Login} />
           <Route path="/forgot-password" component={ForgotPassword} />
           
